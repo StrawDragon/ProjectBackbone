@@ -1,0 +1,62 @@
+{
+  "name": "ofd-new-lk",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/lk",
+  "jest": {
+    "modulePaths": [
+      "src"
+    ],
+    "moduleNameMapper": {
+      "^@components(.*)$": "<rootDir>/components$1",
+      "^@constants(.*)$": "<rootDir>/constants$1"
+    }
+  },
+  "dependencies": {
+    "@material-ui/core": "1.4.3",
+    "@material-ui/icons": "2.0.1",
+    "axios": "0.17.1",
+    "babel-polyfill": "6.26.0",
+    "es6-shim": "0.35.3",
+    "history": "4.7.2",
+    "lodash": "4.17.10",
+    "moment": "2.22.1",
+    "react": "16.3.2",
+    "react-dom": "16.6.3",
+    "react-redux": "5.0.6",
+    "react-router-dom": "4.2.2",
+    "react-router-redux": "5.0.0-alpha.9",
+    "react-scripts": "1.1.4",
+    "redux": "3.7.2",
+    "redux-act": "1.7.4",
+    "redux-act-dispatch-free": "1.3.0",
+    "redux-devtools-extension": "2.13.2",
+    "redux-logger": "3.0.6",
+    "styled-components": "2.3.2"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build-lk": "react-app-rewired build",
+    "build-lk-and-auth": "npm run build-lk",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-app-rewired eject",
+    "flow": "flow"
+  },
+  "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "babel-plugin-styled-components": "1.3.0",
+    "bitbar-webpack-progress-plugin": "0.1.3",
+    "eslint": "4.19.1",
+    "eslint-config-react-app": "2.0.1",
+    "eslint-plugin-flowtype": "2.46.2",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.5.1",
+    "extended-define-webpack-plugin": "0.1.3",
+    "file-loader": "1.1.11",
+    "prettier": "1.12.1",
+    "react-app-rewire-lodash": "2.0.0",
+    "react-app-rewired": "1.4.0",
+    "webpack-bundle-analyzer": "2.9.1"
+  }
+}
